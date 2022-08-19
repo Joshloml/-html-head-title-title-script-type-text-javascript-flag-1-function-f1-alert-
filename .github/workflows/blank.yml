@@ -1,0 +1,48 @@
+<html>
+<head>
+<title></title>
+
+<script type="text/javascript">
+flag=1
+function f1()
+{
+    alert("Yehey ari mo Ay!”)
+}
+function f()
+{
+    if(flag==1)
+        {
+            Bn.style.top=400
+            Bn.style.left=300
+            flag=2
+        }
+    else if(flag==2)
+        {
+            Bn.style.top=400
+            Bn.style.left=50
+            flag=3
+        }
+    else if(flag==3)
+        {
+            Bn.style.top=370
+            Bn.style.left=166
+            flag=1
+        }
+}
+</script>
+
+</head>
+<body>
+<h1>Tampaon taka be? </h1>
+<img src="https://www.google.com.ph/imgres?imgurl=https%3A%2F%2Fmedia.tenor.com%2Fimages%2Fdc8f0856320b321559809d01f68631d3%2Ftenor.gif&imgrefurl=https%3A%2F%2Ftenor.com%2Fview%2F11691445&tbnid=xE6hAn3AjgyXgM&vet=1&w=220&h=247&hl=en-US&source=sh%2Fx%2Fim" height="200" />
+<h1 style="#"></h1>
+<div id="By" style="position:absolute; left:64px; top:370px; width:210px;
+height:210px;">
+<input type="button" value=" YES " onClick="f1()" />
+</div>
+<div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+<input type="button" value=" NO " onMouseOver="f()" />
+</div>
+
+</body>
+</html>
